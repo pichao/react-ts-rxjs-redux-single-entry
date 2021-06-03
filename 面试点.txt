@@ -1,0 +1,47 @@
+1.git操作
+2.函数节流和函数防抖、promise、proterbuff数据格式、加密验签原理
+    函数防抖debounce：在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
+    函数节流：限制函数一段时间内只能执行一次
+    函数防抖关注一定时间连续触发的事件只在最后执行一次，而函数节流侧重于一段时间内只执行一次。
+
+
+3.redux、react hooks以及自定义hooks、redux-observable
+4.虚拟dom，以及大量数据渲染
+    DOM意思是文档对象模型，Virtual DOM 只是js模拟的DOM结构。 虚拟DOM是HTML DOM的抽象 。
+    虚拟DOM是由js实现的避免DOM树频繁更新，通过js的对象模拟DOM中的节点，然后通过特定的render方法
+    将它渲染成真实的节点，数据更新时，渲染得到新的 Virtual DOM，与上一次得到的 Virtual DOM 
+    进行 diff，得到所有需要在 DOM 上进行的变更，然后在 patch 过程中应用到 DOM 上
+
+
+5.js同步异步、闭包、内存泄漏、跨域解决方法、http2.0
+    JS的确是单线程的。
+    浏览器是允许多个线程异步执行的，除了JS引擎线程外还有GUI渲染线程、事件触发线程、HTTP请求线程、
+    定时触发线程、下载线程等；其中，JS引擎线程、事件触发线程、GUI渲染线程属于常驻线程。
+
+
+
+6.webpack构建项目、预渲染、打包优化
+7.服务端渲染原理以及next
+8.前端性能优化
+9.图片缩略图、图片优化、react组件引入图片
+10.npm私有包
+11.es6相关知识、】Generator 函数、迭代器
+12.mvc、mvvm
+13.ajax以及http相关知识
+14.rxjs
+15.原型链、类
+16.service worker，pwa
+17.nginx命令以及配置方法
+18.设计模式
+19.gulp api
+20.vue、vuex，
+21.nodejs、express
+23.前端数据库indexDB
+24.websocket、webrtc、手机以及电脑视频流、西瓜播放器xgplayer
+25.seo相关知识、前端安全以及对策
+26.前端缓存、浏览器缓存原理
+27.js指针，对象
+28.typescript
+29.函数式编程、响应式编程
+30.前端项目docker部署
+31.less，sass
